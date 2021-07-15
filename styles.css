@@ -23,3 +23,18 @@ body {
   height: 2rem;
   margin-top: 0.5rem;
 }
+
+.second-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  height: 20rem;
+}
+
+.clickBtn {
+  background-color: black;
+  color: white;
+  height: 10rem;
+  width: 15rem;
+}
