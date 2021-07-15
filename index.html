@@ -5,19 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <script src="/scrypt.js" defer></script>
     <title>Document</title>
   </head>
   <body>
-    <div class="main-container">
+    <div class="main-display">
       <h1>Chose a user name</h1>
       <br />
-      <label for="UserName">User name</label>
-      <input type="text" id="UserName" class="inputBox" />
-      <button type="submit" class="btn">Start Game</button>
+      <form action="">
+        <label for="userName">User name</label>
+        <input type="text" id="username" class="inputBox" />
+        <input type="submit" class="btn" id="UserName" value="Start Game" />
+      </form>
     </div>
-
-    <div class="second-container">
-      <button class="clickBtn">Click Here</button>
+    <div class="second-display">
+      <div class="datainfo">
+        <div class="nombre">Nombre</div>
+        <div class="timer">Timer</div>
+        <div class="countClicks">Clicks</div>
+      </div>
+      <div>
+        <button class="clickBtn" id="clickBtn">Click Here</button>
+      </div>
     </div>
   </body>
 </html>

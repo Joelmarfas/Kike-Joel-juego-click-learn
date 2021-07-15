@@ -2,7 +2,7 @@ body {
   height: 100vh;
 }
 
-.main-container {
+.main-display {
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -24,12 +24,19 @@ body {
   margin-top: 0.5rem;
 }
 
-.second-container {
+.second-display {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   border: 2px solid black;
   height: 20rem;
+}
+
+.datainfo {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
 }
 
 .clickBtn {
@@ -37,4 +44,25 @@ body {
   color: white;
   height: 10rem;
   width: 15rem;
+}
+
+.timer {
+  background-color: red;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: white;
+}
+
+.nombre {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: black;
+  border: 1px solid red;
+}
+
+.countClicks {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: black;
+  border: 1px solid red;
 }
