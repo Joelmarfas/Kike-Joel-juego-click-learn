@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  width: 20rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.inputBox {
+  width: 20rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+}
